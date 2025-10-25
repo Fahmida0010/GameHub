@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "title": "PlayerUnknown's Battlegrounds (PUBG Mobile)",
+    "coverPhoto": "src/assets/pubg.avif",
+    "category": "Battle Royale / FPS",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "A fast-paced battle royale where players fight to be the last one standing across dynamic maps and modes.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": "2",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "src/assets/callduty.avif", 
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "Console-quality action in a mobile FPS — includes classic multiplayer, battle royale modes, and seasonal events.",
+    "ratings": "4.4",
+    "developer": "Activision"
+  },
+  {
+    "id": "3",
+    "title": "Fortnite",
+    "coverPhoto": "src/assets/fornite.avif",
+    "category": "Battle Royale / Building",
+    "downloadLink": "https://www.epicgames.com/fortnite/en-US/home",
+    "description": "A cross-platform battle royale with building mechanics, creative modes, and frequent live events.",
+    "ratings": "4.3",
+    "developer": "Epic Games"
+  },
+  {
+    "id": "4",
+    "title": "Apex Legends",
+    "coverPhoto": "src/assets/Apex Legends.jpg",
+    "category": "Battle Royale / Hero Shooter",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Team-based battle royale where unique legends with special abilities fight in fast squad combat.",
+    "ratings": "4.4",
+    "developer": "Respawn Entertainment / EA"
+  },
+  {
+    "id": "5",
+    "title": "Valorant",
+    "coverPhoto": "src/assets/Valorant.jpg",
+    "category": "Tactical FPS",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "A tactical 5v5 shooter blending precise gunplay with agent abilities in competitive matches.",
+    "ratings": "4.2",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "6",
+    "title": "Carrom",
+    "coverPhoto": "src/assets/carrom.jpg",
+    "category": "Sandbox / Adventure",
+    "downloadLink": "https://www.minecraft.net/en-us",
+    "description": "A sandbox game about placing blocks and going on adventures — build, explore, and survive alone or with friends.",
+    "ratings": "4.7",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "7",
+    "title": "Grand Theft Auto V (GTA V)",
+    "coverPhoto": "src/assets/Grandgame.jpg",
+    "category": "Open World / Action",
+    "downloadLink": "https://www.rockstargames.com/V/",
+    "description": "An open-world action-adventure game with a sprawling single-player story and an evolving online mode.",
+    "ratings": "4.8",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": "8",
+    "title": "Car Race",
+    "coverPhoto":"src/assets/carrace.jpg",
+    "category": "Sports / Football",
+    "downloadLink": "https://www.ea.com/games/fifa",
+    "description": "Realistic football simulation featuring licensed teams, career modes, and online Ultimate Team play.",
+    "ratings": "4.1",
+    "developer": "EA Sports"
+  },
+  {
+    "id": "9",
+    "title": "Minecraft",
+    "coverPhoto": "src/assets/Minecraft.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://www.leagueoflegends.com/",
+    "description": "A team-based MOBA where two teams of five powerful champions face off to destroy the enemy Nexus.",
+    "ratings": "4.3",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "10",
+    "title": "Counter-Strike",
+    "coverPhoto": "src/assets/gamepic.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://store.steampowered.com/app/570/Dota_2/",
+    "description": "A deep, strategic MOBA from Valve with a huge hero roster and an active competitive scene.",
+    "ratings": "4.4",
+    "developer": "Valve"
+  },
+  {
+    "id": "11",
+    "title": "Ludu",
+    "coverPhoto": "src/assets/Ludu.jpg",
+    "category": "Tactical FPS",
+    "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/",
+    "description": "The latest evolution of Counter-Strike — precision shooting and strategic team play in classic bomb/defuse matches.",
+    "ratings": "4.6",
+    "developer": "Valve"
+  },
+  {
+    "id": "12",
+    "title": "Roblox",
+    "coverPhoto": "src/assets/gamepics.jpg",
+    "category": "User-Generated / MMO",
+    "downloadLink": "https://www.roblox.com/",
+    "description": "A platform where users build and share millions of user-generated 3D experiences and games.",
+    "ratings": "4.0",
+    "developer": "Roblox Corporation"
+  }
+]

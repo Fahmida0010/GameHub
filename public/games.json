@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "PlayerUnknown's Battlegrounds (PUBG Mobile)",
-    "coverPhoto": "src/assets/pubg.avif",
+    "coverPhoto": "https://i.ibb.co.com/s9ZnVTSq/picgames.jpg",
     "category": "Battle Royale / FPS",
     "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
     "description": "A fast-paced battle royale where players fight to be the last one standing across dynamic maps and modes.",

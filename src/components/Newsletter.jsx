@@ -5,7 +5,7 @@ const Newsletter = () => {
     <section className="bg-gradient-to-r from-indigo-300 to-purple-500
      py-14 text-white rounded-4xl">
      
-  <h2 className="text-3xl text-pink-600 font-bold  p-8 text-center">Join Our Newsletter</h2>
+  <h2 className="text-3xl text-pink-700 font-bold  p-8 text-center">Join Our Newsletter</h2>
         <p className="mb-6 text-gray-100 text-xl text-center">
           Stay updated with the latest game releases, tips, and exclusive
           content!

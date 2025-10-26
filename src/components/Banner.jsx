@@ -32,7 +32,7 @@ const Banner = () => {
       }
     );
   }, []);
-
+ {/* Banner component updated for responsive design */}
   return (
     <div
       ref={bannerRef}
@@ -60,7 +60,7 @@ const Banner = () => {
           <div className="flex flex-col items-center">
             <img
               ref={(el) => (imagesRef.current[0] = el)}
-              src="src/assets/gamepi.jpg"
+              src="https://i.ibb.co.com/23NZJBkN/pubg.jpg"
               alt="Amazing Games"
               className="w-full rounded-lg object-cover shadow-lg"
             />
@@ -71,7 +71,7 @@ const Banner = () => {
           <div className="flex flex-col items-center">
             <img
               ref={(el) => (imagesRef.current[1] = el)}
-              src="src/assets/gamepics.jpg"
+              src="https://i.ibb.co.com/SDx81g8P/Apex-Legends.jpg"
               alt="Computer Games"
               className="w-full rounded-lg object-cover shadow-lg"
             />
@@ -82,7 +82,7 @@ const Banner = () => {
           <div className="flex flex-col items-center">
             <img
               ref={(el) => (imagesRef.current[2] = el)}
-              src="src/assets/carrace.jpg"
+              src="https://i.ibb.co.com/cXF247SP/fornite.jpg"
               alt="Popular Game"
               className="w-full rounded-lg object-cover shadow-lg"
             />

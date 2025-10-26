@@ -17,7 +17,8 @@ const GameDetails = () => {
   }, [id]);
 
   if (!game)
-    return <p className="text-center mt-10 text-gray-500 text-lg">Loading game details...</p>;
+    return <p className="text-center mt-10 text-green-500
+   text-lg">Loading game details...</p>;
 
   return (
     <div className="max-w-4xl mx-auto mt-10 bg-white p-6 sm:p-10 rounded-2xl shadow-md">

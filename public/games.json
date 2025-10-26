@@ -12,7 +12,7 @@
   {
     "id": "2",
     "title": "Call of Duty: Mobile",
-    "coverPhoto": "src/assets/callduty.avif", 
+    "coverPhoto": "https://i.ibb.co.com/Lzmg33Vs/gamepics.jpg", 
     "category": "FPS",
     "downloadLink": "https://www.callofduty.com/mobile",
     "description": "Console-quality action in a mobile FPS — includes classic multiplayer, battle royale modes, and seasonal events.",
@@ -22,7 +22,7 @@
   {
     "id": "3",
     "title": "Fortnite",
-    "coverPhoto": "src/assets/fornite.avif",
+    "coverPhoto": "https://i.ibb.co.com/Pv4cSSW9/gamepic.jpg",
     "category": "Battle Royale / Building",
     "downloadLink": "https://www.epicgames.com/fortnite/en-US/home",
     "description": "A cross-platform battle royale with building mechanics, creative modes, and frequent live events.",
@@ -32,7 +32,7 @@
   {
     "id": "4",
     "title": "Apex Legends",
-    "coverPhoto": "src/assets/Apex Legends.jpg",
+    "coverPhoto": "https://i.ibb.co.com/yF8myQXY/gamepi.jpg",
     "category": "Battle Royale / Hero Shooter",
     "downloadLink": "https://www.ea.com/games/apex-legends",
     "description": "Team-based battle royale where unique legends with special abilities fight in fast squad combat.",
@@ -42,7 +42,7 @@
   {
     "id": "5",
     "title": "Valorant",
-    "coverPhoto": "src/assets/Valorant.jpg",
+    "coverPhoto": "https://i.ibb.co.com/spgWW5hR/gamep.jpg",
     "category": "Tactical FPS",
     "downloadLink": "https://playvalorant.com/",
     "description": "A tactical 5v5 shooter blending precise gunplay with agent abilities in competitive matches.",
@@ -52,7 +52,7 @@
   {
     "id": "6",
     "title": "Carrom",
-    "coverPhoto": "src/assets/carrom.jpg",
+    "coverPhoto": "https://i.ibb.co.com/mVnxRkZZ/carrom.jpg",
     "category": "Sandbox / Adventure",
     "downloadLink": "https://www.minecraft.net/en-us",
     "description": "A sandbox game about placing blocks and going on adventures — build, explore, and survive alone or with friends.",
@@ -62,7 +62,7 @@
   {
     "id": "7",
     "title": "Grand Theft Auto V (GTA V)",
-    "coverPhoto": "src/assets/Grandgame.jpg",
+    "coverPhoto": "https://i.ibb.co.com/d4DK6wPQ/Grandgame.jpg",
     "category": "Open World / Action",
     "downloadLink": "https://www.rockstargames.com/V/",
     "description": "An open-world action-adventure game with a sprawling single-player story and an evolving online mode.",
@@ -72,7 +72,7 @@
   {
     "id": "8",
     "title": "Car Race",
-    "coverPhoto":"src/assets/carrace.jpg",
+    "coverPhoto":"https://i.ibb.co.com/NnmkgJR6/carrace.jpg",
     "category": "Sports / Football",
     "downloadLink": "https://www.ea.com/games/fifa",
     "description": "Realistic football simulation featuring licensed teams, career modes, and online Ultimate Team play.",
@@ -82,7 +82,7 @@
   {
     "id": "9",
     "title": "Minecraft",
-    "coverPhoto": "src/assets/Minecraft.jpg",
+    "coverPhoto": "https://i.ibb.co.com/JW6rTBpr/Minecraft.jpg",
     "category": "MOBA",
     "downloadLink": "https://www.leagueoflegends.com/",
     "description": "A team-based MOBA where two teams of five powerful champions face off to destroy the enemy Nexus.",
@@ -92,7 +92,7 @@
   {
     "id": "10",
     "title": "Counter-Strike",
-    "coverPhoto": "src/assets/gamepic.jpg",
+    "coverPhoto": "https://i.ibb.co.com/V0bCnKmH/callduty.jpg",
     "category": "MOBA",
     "downloadLink": "https://store.steampowered.com/app/570/Dota_2/",
     "description": "A deep, strategic MOBA from Valve with a huge hero roster and an active competitive scene.",
@@ -102,7 +102,7 @@
   {
     "id": "11",
     "title": "Ludu",
-    "coverPhoto": "src/assets/Ludu.jpg",
+    "coverPhoto": "https://i.ibb.co.com/fB4tpW0/Ludu.jpg",
     "category": "Tactical FPS",
     "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/",
     "description": "The latest evolution of Counter-Strike — precision shooting and strategic team play in classic bomb/defuse matches.",
@@ -112,7 +112,7 @@
   {
     "id": "12",
     "title": "Roblox",
-    "coverPhoto": "src/assets/gamepics.jpg",
+    "coverPhoto": "https://i.ibb.co.com/zykcGBx/Valorant.jpg",
     "category": "User-Generated / MMO",
     "downloadLink": "https://www.roblox.com/",
     "description": "A platform where users build and share millions of user-generated 3D experiences and games.",

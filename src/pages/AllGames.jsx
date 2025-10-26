@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const AllGames = () => {
   const [games, setGames] = useState([]);
 
-  // Load games data from JSON file
+
   useEffect(() => {
-    fetch("/games.json") // যদি src/data এর ভেতরে রাখো তাহলে: fetch("src/data/games.json")
+    fetch("/games.json") 
       .then((res) => res.json())
       .then((data) => setGames(data))
       .catch((err) => console.error("Error loading games:", err));
@@ -17,7 +17,7 @@ const AllGames = () => {
        All Games are here and free to download  🎮 
       </h2>
 
-      {/* Cards Grid */}
+   
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {games.map((game) => (
           <div
@@ -25,7 +25,7 @@ const AllGames = () => {
             className="bg-white rounded-2xl shadow-md overflow-hidden
              hover:shadow-xl transition-all duration-300 flex flex-col"
           >
-            {/* Image */}
+       
             <img
               src={game.coverPhoto}
               alt={game.title}
@@ -33,7 +33,7 @@ const AllGames = () => {
               onError={(e) => (e.currentTarget.src = "/assets/placeholder.png")}
             />
 
-            {/* Info */}
+     
             <div className="p-4 flex flex-col flex-1">
               <h3 className="text-lg font-semibold mb-1 text-green-800 line-clamp-2">
                 {game.title}
@@ -43,14 +43,12 @@ const AllGames = () => {
                 {game.description}
               </p>
 
-              {/* Ratings + Developer */}
+         
               <div className="text-sm text-red-400 mb-4">
                 ⭐ {game.ratings} |{" "}
                 <span className="italic">{game.developer}</span>
               </div>
-
-              {/* Buttons */}
-              <div className="mt-auto flex justify-between items-center">
+        <div className="mt-auto flex justify-between items-center">
                 <a
                   href={game.downloadLink}
                   target="_blank"

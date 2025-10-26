@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <footer className="bg-gray-700 text-gray-300 py-10 mt-10">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
-        {/*  Logo & About */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-3">
             Game<span className="text-yellow-400">Hub</span>
@@ -14,8 +13,6 @@ const Footer = () => {
             GameHub brings you the world’s best games in one place.
           </p>
         </div>
-
-        {/* Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
           <ul className="space-y-2 text-sm">
@@ -25,8 +22,6 @@ const Footer = () => {
             <li><a href="/contact" className="hover:text-yellow-400">Contact</a></li>
           </ul>
         </div>
-
-        {/* Social Media */}
         <div>
           <h3 className="text-lg text-blue-500 font-semibold text-white mb-3">Follow Us</h3>
           <div className="flex gap-4">
@@ -78,8 +73,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* 🔹 Bottom Text */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm text-gray-400">
         © {new Date().getFullYear()} Gamehub. All rights reserved.
       </div>

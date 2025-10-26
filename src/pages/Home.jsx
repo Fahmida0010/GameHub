@@ -19,17 +19,12 @@ const Home = () => {
 
   return (
     <div className="w-full">
-      {/* Banner and Popular Games side by side */}
       <section className="py-12 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 flex flex-col lg:flex-row gap-8">
-          
-          {/* Left Column - Banner */}
           <div className="lg:w-2/3">
             <Banner />
           </div>
-
-          {/* Right Column - Popular Games */}
-          <div className="lg:w-1/3 flex flex-col space-y-4">
+       <div className="lg:w-1/3 flex flex-col space-y-4">
             <h2 className="text-2xl font-bold mb-4 text-gray-800">Popular Games</h2>
             {games.slice(0, 5).map((game) => (
               <GameCard

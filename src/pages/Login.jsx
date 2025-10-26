@@ -8,8 +8,6 @@ const Login = () => {
   const { login, googleLogin } = useContext(AuthContext);
   const [error, setError] = useState("");
   const navigate = useNavigate();
-
-  // Email & Password login
   const handleLogin = async (e) => {
     e.preventDefault();
     const email = e.target.email.value;
@@ -17,14 +15,12 @@ const Login = () => {
 
     try {
       await login(email, password);
-      navigate("/"); // Redirect to home
+      navigate("/"); 
     } catch (err) {
       setError("Invalid email or password. Please try again.");
       console.error(err);
     }
   };
-
-  // Google login
   const handleGoogleLogin = async () => {
     try {
       await googleLogin();
@@ -42,7 +38,6 @@ const Login = () => {
         </h2>
 
         <form onSubmit={handleLogin} className="space-y-4">
-          {/* Email Field */}
           <div>
             <label className="block text-gray-700 mb-2">Email</label>
             <input
@@ -53,8 +48,6 @@ const Login = () => {
               placeholder="Enter your email"
             />
           </div>
-
-          {/* Password Field */}
           <div>
             <label className="block text-gray-700 mb-2">Password</label>
             <input
@@ -65,13 +58,9 @@ const Login = () => {
               placeholder="Enter your password"
             />
           </div>
-
-          {/* Error Message */}
           {error && (
             <p className="text-red-500 text-sm text-center">{error}</p>
           )}
-
-          {/* Login Button */}
           <button
             type="submit"
             className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition"
@@ -79,18 +68,13 @@ const Login = () => {
             Login
           </button>
         </form>
-
-        {/* Google Login */}
         <div className="mt-4 text-center">
           <button
             onClick={handleGoogleLogin}
             className="w-full bg-red-500 text-white py-2 rounded-md hover:bg-red-600 transition"
-          >
-            Login in with Google
+         >Login in with Google
           </button>
         </div>
-
-        {/* Navigation Links */}
         <p className="text-center text-sm mt-4 text-gray-600">
           Don’t have an account?{" "}
           <Link to="/register" className="text-blue-600 hover:underline">

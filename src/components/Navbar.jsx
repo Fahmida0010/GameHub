@@ -5,7 +5,7 @@ import { AuthContext } from "../context/AuthContext";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const { user, logout } = useContext(AuthContext); // AuthContext থেকে user ও logout নিয়ে নিচ্ছি
+  const { user, logout } = useContext(AuthContext); 
   const navigate = useNavigate();
 
   const handleLogout = async () => {
@@ -64,15 +64,10 @@ const Navbar = () => {
   return (
     <header className="bg-gradient-to-r from-yellow-300 to-sky-400 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        {/* Logo */}
         <Link to="/" className="text-2xl font-bold text-green-500">
           🎮 GameHub
         </Link>
-
-        {/* Desktop links */}
         <div className="hidden md:flex items-center gap-6">{navLinks}</div>
-
-        {/* Mobile menu button */}
         <button
           onClick={() => setMenuOpen((p) => !p)}
           className="text-2xl md:hidden"
@@ -81,8 +76,6 @@ const Navbar = () => {
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-
-      {/* Mobile menu (small screens) */}
       {menuOpen && (
         <div className="md:hidden bg-yellow-200 text-black py-4 px-6 flex flex-col gap-3">
           {navLinks}

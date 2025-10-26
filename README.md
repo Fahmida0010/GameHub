@@ -6,7 +6,7 @@ GameHub is a responsive React-based web application where users can explore diff
 
 
 ##  Live URL
- [Live Demo]
+  http://localhost:5173/
 
 
 

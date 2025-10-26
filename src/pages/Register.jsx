@@ -14,8 +14,6 @@ const Register = () => {
     const email = form.email.value;
     const photoURL = form.photoURL.value;
     const password = form.password.value;
-
-    // Password Validation
     if (!/(?=.*[A-Z])/.test(password))
       return setError("Must contain an uppercase letter.");
     if (!/(?=.*[a-z])/.test(password))

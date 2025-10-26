@@ -13,8 +13,6 @@ const Banner = () => {
       { opacity: 0, y: 50 },
       { opacity: 1, y: 0, duration: 1.5, ease: "power3.out" }
     );
-
-    // Title animation
     gsap.fromTo(
       titleRef.current,
       { opacity: 0, y: -30 },

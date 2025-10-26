@@ -30,10 +30,11 @@ const Navbar = () => {
       <NavLink to="/about" className="hover:text-indigo-700">
         About
       </NavLink>
+      {/* login */}
 
       {!user ? (
         <>
-          <NavLink to="/login" className="hover:text-indigo-700 text-purple-600">
+          <NavLink to="/login" className="hover:text-indigo-800 text-purple-600">
             Login
           </NavLink>
           

@@ -38,7 +38,7 @@ const AllGames = () => {
               <h3 className="text-lg font-semibold mb-1 text-green-800 line-clamp-2">
                 {game.title}
               </h3>
-              <p className="text-sm text-pink-400 mb-2">{game.category}</p>
+              <p className="text-sm text-pink-500 mb-2">{game.category}</p>
               <p className="text-sm text-gray-700 mb-3 line-clamp-3 flex-1">
                 {game.description}
               </p>

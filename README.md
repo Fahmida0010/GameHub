@@ -6,7 +6,7 @@ GameHub is a responsive React-based web application where users can explore diff
 
 
 ##  Live URL
-  http://localhost:5173/
+  https://nimble-pixie-211fc7.netlify.app/
 
 
 
